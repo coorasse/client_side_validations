@@ -1,11 +1,6 @@
-# ClientSideValidations #
+`ClientSideValidations for Rails 4` made easy for your Rails v4.0+ applications!
 
-[![Build Status](https://secure.travis-ci.org/bcardarella/client_side_validations.png?branch=3-2-stable)](http://travis-ci.org/bcardarella/client_side_validations)
-[![Dependency Status](https://gemnasium.com/bcardarella/client_side_validations.png?travis)](https://gemnasium.com/bcardarella/client_side_validations)
-[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/bcardarella/client_side_validations)
-[![Coverage Status](https://coveralls.io/repos/lemurheavy/client_side_validations/badge.png?branch=3-2-stable)](https://coveralls.io/r/lemurheavy/client_side_validations)
-
-`ClientSideValidations` made easy for your Rails v3.1+ applications!
+##Please use branch 4.0-beta##
 
 ## Project Goals ##
 
@@ -30,7 +25,7 @@
 Include `ClientSideValidations` in your Gemfile
 
 ```ruby
-gem 'client_side_validations'
+gem 'client_side_validations', github: 'coorasse/client_side_validations', branch: '4-0-beta'
 ```
 
 Then run the install generator
@@ -69,11 +64,7 @@ There is additional support for other `ActiveModel` based ORMs and other
 Rails `FormBuilders`. Please see the [Plugin wiki page](https://github.com/bcardarella/client_side_validations/wiki/Plugins)
 (feel free to add your own)
 
-* [SimpleForm](https://github.com/DockYard/client_side_validations-simple_form)
-* [Formtastic](https://github.com/DockYard/client_side_validations-formtastic)
-* [Mongoid](https://github.com/DockYard/client_side_validations-mongoid)
-* [MongoMapper](https://github.com/DockYard/client_side_validations-mongo_mapper)
-* [Turbolinks](https://github.com/DockYard/client_side_validations-turbolinks)
+* [SimpleForm](https://github.com/coorasse/client_side_validations-simple_form)
 
 ## Usage ##
 
@@ -486,11 +477,6 @@ Major and minor version numbers will follow `Rails`'s major and
 minor version numbers. For example,
 `client_side_validations-3.2.0` will be compatible up to 
 `~> rails-3.2.0`
-
-We will maintain compatibility with one minor version back. So the 3.2.0 version of
-`client_side_validations` will be compatible with `~> rails-3.1.0`
-
-Only two versions minor versions will be actively maintained.
 
 ## Want to help? ##
 
